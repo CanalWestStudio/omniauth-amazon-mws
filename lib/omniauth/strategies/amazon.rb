@@ -1,7 +1,7 @@
 module OmniAuth
   module Strategies
     class Amazon
-      include OmniAuth::Strategy
+      include OmniAuth::Strategies
 
       option :name, 'amazon'
 
